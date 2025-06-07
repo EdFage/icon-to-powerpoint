@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:docs.railway.app)",
+      "Bash(mkdir:*)",
+      "Bash(python:*)"
+    ],
+    "deny": []
+  }
+}
