@@ -3,7 +3,13 @@
     "allow": [
       "WebFetch(domain:docs.railway.app)",
       "Bash(mkdir:*)",
-      "Bash(python:*)"
+      "Bash(python:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(git remote remove:*)",
+      "Bash(git remote add:*)",
+      "Bash(ls:*)",
+      "Bash(git remote set-url:*)"
     ],
     "deny": []
   }
